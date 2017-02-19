@@ -1,12 +1,12 @@
 package com.szs.dao;
 
-import com.szs.model.User;
+import com.szs.model.Employee;
 
 import java.util.List;
 
 /**
  * Created by Administrator on 2017/2/19.
  */
-public interface IUserDao {
-   List<User> getAllUser();
+public interface IEmpDao {
+   List<Employee> getAllUser();
 }

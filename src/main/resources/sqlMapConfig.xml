@@ -7,12 +7,11 @@
 
     <!-- 别名 -->
     <typeAliases>
-        <typeAlias type="com.szs.model.User" alias="user"/>
+        <typeAlias type="com.szs.model.Employee" alias="user"/>
     </typeAliases>
 
     <mappers>
-        <mapper resource="com/szs/mapping/user-mapping.xml"/>
-
+        <mapper resource="com/szs/mapping/emp-mapping.xml"/>
     </mappers>
 
 </configuration>
